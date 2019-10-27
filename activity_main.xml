@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liner1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="320dp"
+    tools:layout_editor_absoluteY="178dp">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/hh" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deva Tuswidya T"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universitas Teknologi Yogyakarta"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#274EB0"
+            android:text="Facebook" />
+
+        <Button
+            android:id="@+id/btnig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:text="Instagram" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start MP3 PLAYER"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/gambar2"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:background="#E04D1F"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/musik" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#358ACE"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C4D0DA"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#358ACE"
+            android:text="Stop" />
+    </LinearLayout>
+</LinearLayout>
